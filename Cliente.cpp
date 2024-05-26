@@ -1,5 +1,9 @@
 #include <iostream>
+#include <fstream>
+#include <sstream>
 #include <string>
+#include <queue>
+#include <list>
 
 class Cliente {
 private:
