@@ -1,4 +1,10 @@
 #include <iostream>
+#include <fstream>
+#include <sstream>
+#include <string>
+#include <queue>
+#include <list>
+
 
 void mostrarMenu() {
     std::cout << "1. Agregar cliente\n";
@@ -36,6 +42,7 @@ int main() {
             case 2: {
                 Cliente* cliente = colaClientes.siguienteCliente();
                 if (cliente != nullptr) {
+                    
                     std::cout << "Atendiendo a " << cliente->getNombre() << std::endl;
                     delete cliente;
                 } else {
@@ -87,6 +94,12 @@ int main() {
     } while (opcion != 5);
 
     return 0;
+
+
+    
+
+
+}
 
 
     
