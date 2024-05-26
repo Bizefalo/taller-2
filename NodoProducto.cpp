@@ -1,3 +1,10 @@
+#include <iostream>
+#include <fstream>
+#include <sstream>
+#include <string>
+#include <queue>
+#include <list>
+
 class NodoProducto {
 public:
     Producto* producto;
@@ -39,3 +46,4 @@ public:
         }
     }
 };
+
