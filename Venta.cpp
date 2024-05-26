@@ -12,7 +12,7 @@ public:
             producto->setCantidad(producto->getCantidad() - cantidad);
             total += producto->getPrecio() * cantidad;
         } else {
-            std::cerr << "Producto no disponible o cantidad insuficiente\n";
+            std::cerr << "producto no disponible o insuficiente\n";
         }
     }
 
